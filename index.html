@@ -9,129 +9,145 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Animais Fantasticos</title>
 </head>
 
 <body>
-  <nav class="menu" data-menu="suave">
-    <ul>
-      <li><a href="#animais">Animais</a></li>
-      <li><a href="#faq">Faq</a></li>
-      <li><a href="#contato">Contato</a></li>
-      <li><a href="https://www.origamid.com/">Dev →</a></li>
-    </ul>
-  </nav>
+  <div class="grid-container">
 
-  <section class="grid-section animais" id="animais" data-anime="scroll">
-    <h1 class="titulo">Animais Fantasticos</h1>
-    <ul class="animais-lista" data-tab="menu">
-      <li>
-        <img src="./img/imagem1.jpg" alt="">
-      </li>
-      <li>
-        <img src="./img/imagem2.jpg" alt="">
-      </li>
-      <li>
-        <img src="./img/imagem3.jpg" alt="">
-      </li>
-      <li>
-        <img src="./img/imagem4.jpg" alt="">
-      </li>
-      <li>
-        <img src="./img/imagem5.jpg" alt="">
-      </li>
-      <li>
-        <img src="./img/imagem6.jpg" alt="">
-      </li>
-    </ul>
-    <div class="animais-descricao" data-tab="content">
-      <section data-anime="show-right">
-        <h2>Raposa</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+    <nav class="menu" data-menu="suave">
+      <ul>
+        <li><a href="#animais">Animais</a></li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a data-modal='abrir' href="login.html">Login →</a></li>
+      </ul>
+    </nav>
 
-      <section data-anime="show-down">
-        <h2>Esquilo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+    <section class="grid-section animais" id="animais" data-anime="scroll">
+      <h1 class="titulo">Animais Fantasticos</h1>
+      <ul class="animais-lista" data-tab="menu">
+        <li>
+          <img src="./img/imagem1.jpg" alt="">
+        </li>
+        <li>
+          <img src="./img/imagem2.jpg" alt="">
+        </li>
+        <li>
+          <img src="./img/imagem3.jpg" alt="">
+        </li>
+        <li>
+          <img src="./img/imagem4.jpg" alt="">
+        </li>
+        <li>
+          <img src="./img/imagem5.jpg" alt="">
+        </li>
+        <li>
+          <img src="./img/imagem6.jpg" alt="">
+        </li>
+      </ul>
+      <div class="animais-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>Raposa</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
 
-      <section data-anime="show-right">
-        <h2>Urso</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Esquilo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
 
-      <section data-anime="show-down">
-        <h2>Lobo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Urso</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
 
-      <section data-anime="show-right">
-        <h2>Macaco</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
 
-      <section data-anime="show-down">
-        <h2>Leao</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
+
+        <section data-anime="show-down">
+          <h2>Leao</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi error nesciunt, aliquam asperiores officiis odio velit dolorum quisquam dolor sint, perferendis sequi laudantium maxime saepe!</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" id="faq" data-anime="scroll">
+      <h1 class=" titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
+
+
+        <dt>Eles sao fantasticos?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
+
+
+        <dt>Qual a diferenca?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
+
+
+        <dt>Como proteger?</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section contato" id="contato" data-anime="scroll">
+      <h1 class=" titulo">Contato</h1>
+      <div class="mapa">
+        <img src="./img/mapa.png" alt="" srcset="">
+      </div>
+      <ul class="dados">
+        <li>contato@origamid.com</li>
+        <li>+55 11 4580-5987</li>
+        <li>Rua Barao Rio Preto</li>
+        <li>Sao Paulo - SP</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Alguns direitos reservados</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email:</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha:</label>
+        <input type="password" for="email" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
     </div>
   </section>
-
-  <section class="grid-section faq" id="faq" data-anime="scroll">
-    <h1 class=" titulo">FAQ</h1>
-    <dl class="faq-lista" data-anime="accordion">
-      <dt>Qual a idade dos animais?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
-
-
-      <dt>Eles sao fantasticos?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
-
-
-      <dt>Qual a diferenca?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
-
-
-      <dt>Como proteger?</dt>
-      <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore cum earum explicabo deleniti, minima omnis voluptas molestiae recusandae necessitatibus debitis maxime nam quibusdam! Explicabo numquam cumque iure suscipit est.</dd>
-    </dl>
-  </section>
-
-  <section class="grid-section contato" id="contato" data-anime="scroll">
-    <h1 class=" titulo">Contato</h1>
-    <div class="mapa">
-      <img src="./img/mapa.png" alt="" srcset="">
-    </div>
-    <ul class="dados">
-      <li>contato@origamid.com</li>
-      <li>+55 11 4580-5987</li>
-      <li>Rua Barao Rio Preto</li>
-      <li>Sao Paulo - SP</li>
-    </ul>
-  </section>
-
-  <footer class="copy">
-    <p>Alguns direitos reservados</p>
-  </footer>
 
   <script src="./js/script.js" type="module"></script>
 </body>
