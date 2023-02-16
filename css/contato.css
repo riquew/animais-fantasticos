@@ -20,6 +20,21 @@
   background: #fb5;
 }
 
+[data-semana]::after {
+  margin-left: 10px;
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background: red;
+  border: 2px solid black;
+}
+
+[data-semana].aberto::after {
+  background: #3f4;
+}
+
 @media (max-width: 700px) {
   .dados,
   .mapa {
