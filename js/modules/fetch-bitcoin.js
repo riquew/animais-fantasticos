@@ -1,11 +1,9 @@
 export default function initFetchBitCoin() {
-  const url = "https://blockchain.info/ticker";
-
   async function fetchBitCoin(url) {
     try {
       const bitCoinJson = await (await fetch(url)).json();
       const bitCoinBRL = bitCoinJson.BRL.buy;
-      let doacao = String((100 / bitCoinBRL).toFixed(6)).replace(".", ",");
+      const doacao = String((100 / bitCoinBRL).toFixed(6)).replace(".", ",");
       const bitCoinValor = document.querySelector(".btc-preco");
       if (bitCoinValor) bitCoinValor.innerText = doacao;
     } catch (e) {
@@ -27,5 +25,5 @@ export default function initFetchBitCoin() {
   //   });
   // }
 
-  fetchBitCoin(url);
+  fetchBitCoin("https://blockchain.info/ticker");
 }

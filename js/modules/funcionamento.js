@@ -9,7 +9,7 @@ export default function initFuncionamento() {
     const diaAgora = dataAgora.getDay();
     const horarioAgora = dataAgora.getHours();
 
-    let estaAberto =
+    const estaAberto =
       diasSemanas.includes(diaAgora) &&
       horarioAgora >= horarioSemana[0] &&
       horarioAgora < horarioSemana[1];
