@@ -3,8 +3,8 @@ export default function initTooltip() {
 
   const onMouseMove = {
     handleEvent(event) {
-      this.tooltipBox.style.top = event.pageY + 20 + "px";
-      this.tooltipBox.style.left = event.pageX + 20 + "px";
+      this.tooltipBox.style.top = `${event.pageY + 20}px`;
+      this.tooltipBox.style.left = `${event.pageX + 20}px`;
     },
   };
 
@@ -27,8 +27,8 @@ export default function initTooltip() {
 
   function onMouseOver(event) {
     const tooltipBox = criarToolTipBox(this);
-    tooltipBox.style.top = event.pageY + "px";
-    tooltipBox.style.left = event.pageX + "px";
+    tooltipBox.style.top = `${event.pageY}px`;
+    tooltipBox.style.left = `${event.pageX}px`;
 
     onMouseMove.tooltipBox = tooltipBox;
     this.addEventListener("mousemove", onMouseMove);
