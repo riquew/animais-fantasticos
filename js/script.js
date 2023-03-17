@@ -1,8 +1,8 @@
 import ScrollSuave from "./modules/scrollSuave.js";
 import Accordion from "./modules/accordion.js";
 import TabNav from "./modules/tab-nav.js";
+import Modal from "./modules/modal.js";
 import initAnimacaoScroll from "./modules/scrollNav.js";
-import initModal from "./modules/modal.js";
 import initTooltip from "./modules/tooltip.js";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
@@ -22,8 +22,14 @@ const tabNav = new TabNav(
 );
 tabNav.init();
 
+const modal = new Modal(
+  "[data-modal='abrir']",
+  "[data-modal='fechar']",
+  ".modal-container"
+);
+modal.init();
+
 initAnimacaoScroll();
-initModal();
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
